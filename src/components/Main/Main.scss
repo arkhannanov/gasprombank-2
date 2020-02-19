@@ -1,0 +1,27 @@
+.main {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    &-container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &-id {
+      margin: 30px;
+      margin-top: 20px;
+    }
+
+    &-name {
+      margin: 20px;
+      font-weight: bold;
+    }
+
+    &-price {
+      margin: 20px;
+    }
+  }
+}
